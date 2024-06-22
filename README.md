@@ -9,3 +9,9 @@ Este proyecto tiene la siguiente arquitectura:
         hacen predicciones de detección de vehículos en un video. 
     - Una carpeta donde tenemos almacenado el dataset propio utilizado para estas pruebas.
     - Dos carpetas con los resultados obtenidos.
+   
+
+Además aquí adjunto el video original que hemos utilizado para realizar predicciones y los videos que hemos obtenido a la salida de nuestro modelo
+- [Video original](https://youtu.be/kduMuhOGO2s)
+- [Video resultado detección de coches sin reentreno del modelo](https://youtu.be/lzqRZjF_Caw)
+- [Video resultado detección de coches con un reentrenamiento de 3 épocas](https://youtu.be/d_8A4Ee6Tmo)
