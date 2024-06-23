@@ -3,10 +3,11 @@ Este proyecto tiene la siguiente arquitectura:
 - El archivo 'transformacionjson.ipynb', contiene el código python necesario para pasar los archivos .json de nuestro dataset de imágenes, al formato necesario para YOLO.
 - La carpeta YOLO que contiene los códigos y los resultados obtenidos en las pruebas realizadas para el capítulo de desarrollo. Dentro de este también tenemos la siguiente arquitectura:
   - La carpeta PRUEBA1, contiene el código python utilizado para la primera prueba realizada, correspondiente con un entrenamiento de un modelo YOLOv8 nuevo con el dataset coco128.
-  - La carpeta PRUEBA2, contiene el código python utilizado para la segunda prueba realizada, correspondiente con un entrenamiento de un modelo YOLOv8 ya preentrenado y posteriormente reentrenarlo con el dataset coco128.
+  - La carpeta PRUEBA2, contiene:
+    -  Los códigos python utilizados para la segunda prueba realizada, correspondiente con un entrenamiento de un modelo YOLOv8 ya preentrenado y posteriormente reentrenarlo con el dataset coco128 con distintas épocas.
+    -  Tres carpetas con los resultados obtenidos
   - La carpeta PRUEBA3, contiene:
-    - El código python utilizado para la tercera prueba realizada, correspondiente con un entrenamiento de un modelo YOLOv8 ya preentrenado, posteriormente se reentrena con un dataset propio y finalmente se
-        hacen predicciones de detección de vehículos en un video. 
+    - Los códigos python utilizados para la tercera prueba realizada, correspondiente con un entrenamiento de un modelo YOLOv8 ya preentrenado, posteriormente se reentrena con un dataset propio y finalmente se hacen predicciones de detección de vehículos en un video. 
     - Una carpeta donde tenemos almacenado el dataset propio utilizado para estas pruebas.
     - Dos carpetas con los resultados obtenidos.
    
